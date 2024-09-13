@@ -1,0 +1,22 @@
+.article_box .img_box {
+    margin-bottom: 24px;
+  }
+  .article_box img {
+    width: 100%;
+  }
+  .article_box h6 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  @media (max-width: 750px) {
+    .article_box{
+      margin-bottom: 24px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .article_box{
+      margin-bottom: 24px;
+    }
+  }

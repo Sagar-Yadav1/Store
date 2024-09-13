@@ -1,0 +1,132 @@
+.productCard {
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .newBadge {
+    position: absolute;
+    top: 32px;
+    left: 20px;
+    background-color: white;
+    color: black;
+    padding: 4px 14px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    border-radius: 4px;
+    z-index: 1;
+    isolation: isolate;
+  }
+  
+  .discountBadge {
+    position: absolute;
+    top: 64px;
+    left: 20px;
+    background-color: rgba(56, 203, 137, 1);
+    color: white;
+    padding: 4px 14px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    border-radius: 4px;
+    z-index: 1;
+    isolation: isolate;
+  }
+  
+  .pc_heartIcon {
+    position: absolute;
+    top: 32px;
+    right: 20px;
+    padding: 8px 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #b0b0b0;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0;
+    transition: ease-in-out 0.4s;
+  }
+  
+  .productImageContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 16px;
+  }
+  
+  .product_img {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .product_img img:hover {
+    transform: scale(1.1);
+  }
+  
+  .productImage {
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+    transition: ease-in-out 0.4s;
+    mix-blend-mode: multiply;
+  }
+  
+  .productDetails {
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .productRating {
+    margin-top: 15px;
+  }
+  
+  .productRating span {
+    font-size: 18px;
+    color: #E8A000;
+  }
+  
+  .productName a {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #333;
+    margin: 10px 0 5px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .productPrice {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .product_btn {
+    position: absolute;
+    top: -40px;
+    left: -50%;
+    right: -50%;
+    text-align: center;
+    z-index: 1;
+    opacity: 0;
+    transition: ease-in-out 0.4s;
+  }
+  .productCard:hover .product_btn,
+  .productCard:hover .pc_heartIcon {
+    opacity: 1;
+    transform: translateY(-10%);
+  }
+  

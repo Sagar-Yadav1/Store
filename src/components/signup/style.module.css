@@ -1,0 +1,165 @@
+.leftSide {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chairImage {
+    width: 100%;
+    object-fit: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 32px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.rightSide {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formWrapper {
+    padding: 20px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px #e8ecef;
+}
+
+.rightSide h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.4000000059604645px;
+    margin-bottom: 20px;
+}
+
+.rightSide p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6c7275;
+    margin-bottom: 20px;
+}
+
+.signInLink {
+    color: #38cb89;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    padding: 5px;
+    display: inline;
+    background-image: linear-gradient(#38cb89, #38cb89),
+        linear-gradient(#38cb89, #38cb89);
+    background-size: 0% 1px, 0 1px;
+    background-position: 95% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.4s linear;
+}
+
+.signInLink:hover {
+    background-size: 0 2px, 100% 2px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputField {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #e8ecef;
+    border-radius: 4px;
+}
+
+.passwordWrapper {
+    position: relative;
+}
+
+.passwordWrapper svg {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.terms input {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.terms label {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6c7275;
+    padding: 0;
+}
+
+.terms a {
+    color: #000;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    display: inline;
+    background-image: linear-gradient(#161439, #161439),
+        linear-gradient(#161439, #161439);
+    background-size: 0% 2px, 0 2px;
+    background-position: 95% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.4s linear;
+}
+
+.terms a:hover {
+    background-size: 0 2px, 100% 2px;
+}
+
+.inputField {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.errorInput {
+    border-color: red;
+    color: red;
+}
+
+.errorInput::placeholder {
+    color: red;
+}
+
+.signbtn {
+    padding: 12px 0;
+}

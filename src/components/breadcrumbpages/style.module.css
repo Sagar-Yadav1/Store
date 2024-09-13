@@ -1,0 +1,29 @@
+.breadcrumb_pages {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  .bread_page{
+    display: flex;
+  }
+  
+  .breadcrumbItem {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    color: #605f5f;
+  }
+  
+  .breadcrumbItem:hover {
+    text-decoration: underline;
+  }
+  
+  .separator {
+    margin: 0 5px;
+    color: #666;
+  }
+  

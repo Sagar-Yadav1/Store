@@ -1,0 +1,175 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+}
+.footer_logo{
+    margin-bottom: 32px;
+}
+.footer_address{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #141718;
+    margin-bottom: 18px;
+}
+.footer_contact{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #141718;
+    margin-bottom: 32px;
+}
+.footer_icons{
+    display: flex;
+    gap: 24px;
+}
+.footer_page p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #141718;
+    margin-bottom: 40px;
+}
+.footer_page ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer_page ul li{
+    margin-bottom: 24px;
+}
+.footer_cnt{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+.footer_cnt span{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 24px;
+    color: #141718;
+}
+.footer_email{
+    position: relative;
+    margin-top: 24px;
+}
+.footer_email input{
+    border: none;
+    border: 2px solid #6C727540;
+    background-color: #E8ECEF;
+    width: 352px;
+    height: 48px;
+    padding: 8px 8px 8px 16px;
+    gap: 0px;
+    border-radius: 90px;
+    opacity: 0px;
+}
+.footericon{
+    position: absolute;
+    padding: 6px 9px;
+    background-color: #377DFF;
+    top: 6px;
+    left: 310px;
+    border-radius: 100px;
+}
+.bottom_bar{
+    border-top: 1px solid #6C7275;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-top: 38px;
+}
+.policy{
+    display: flex;
+    gap: 16px;
+    flex: 1;
+    border-left: 1px solid #6C7275;
+    padding-left: 16px;
+}
+.payments img{
+    mix-blend-mode: darken;
+}
+@media (max-width: 450px) {
+    .footer {
+      padding: 64px 32px;
+      display: flex;
+      flex-direction: column;
+    }
+    .footer_icons {
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 50px;
+      padding-bottom: 50px;
+    }
+    .footer_page {
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 50px;
+      padding-bottom: 50px;
+    }
+    .bottom_bar {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 320px) {
+    .footer_email input {
+      width: 311px;
+    }
+    .footericon {
+      left: 271px;
+    }
+  }
+  @media (max-width: 375px) {
+    .footer {
+      padding: 64px 32px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 375px) {
+    .footer_email input {
+      width: 311px;
+    }
+    .footericon {
+      left: 271px;
+    }
+  }
+  @media (max-width: 425px) {
+    .footer {
+      padding: 64px 32px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 425px) {
+    .footer_email input {
+      width: 311px;
+    }
+    .footericon {
+      left: 271px;
+    }
+  }
+  @media (max-width: 768px) {
+    .footer {
+      padding: 64px 32px;
+      display: flex;
+      flex-direction: column;
+    }
+    .footer_email input {
+      width: 311px;
+    }
+    .footericon {
+      left: 271px;
+    }
+  }

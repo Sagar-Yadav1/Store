@@ -1,0 +1,183 @@
+.button {
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.button span {
+  margin-right: 4px;
+}
+
+.fill {
+  padding: 12px 56px 12px 56px;
+  background-color: #377DFF;
+  border: 1px solid #377DFF;
+  color: white;
+  border-radius: 8px;
+}
+
+.fill:hover {
+  color: #000000;
+  border: 1px solid #000000;
+  background-color: #fff;
+}
+
+.outline {
+  padding: 6px 40px 6px 40px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #000000;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 0px;
+}
+
+.outline:hover {
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: white;
+}
+
+.fillround {
+  padding: 10px 40px 10px 40px;
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: white;
+  border-radius: 50px;
+}
+
+.fillround:hover {
+  color: #000000;
+  border: 1px solid #000000;
+  background-color: transparent;
+}
+
+.outlineround {
+  padding: 6px 40px 6px 40px;
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  width: fit-content;
+}
+
+.outlineround:hover {
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: white;
+}
+
+.text {
+  color: #6C7275;
+  font-family: inter, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.text2 {
+  color: #000000;
+  font-family: inter, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 10px 0;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.textblue {
+  font-family: inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: transparent;
+  color: rgba(55, 125, 255, 1);
+  border-bottom: 1px solid currentColor;
+}
+
+.textblue:hover {
+  color: #000;
+}
+
+.textwhite {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: transparent;
+  color: #fff;
+  width: fit-content;
+  border-bottom: 1px solid currentColor;
+}
+
+.textblack {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: transparent;
+  color: #000000;
+  border-bottom: 1px solid currentColor;
+  width: fit-content;
+}
+
+.width {
+  width: 100%;
+}
+
+.small {
+  width: 80px;
+  padding: 10px 24px 10px 24px;
+  gap: 8px;
+  border-radius: 43px;
+  opacity: 0px;
+}
+
+.medium {
+  width: Hug (145px) px;
+  height: Hug (45px) px;
+  padding: 14px 32px 14px 32px;
+  gap: 12px;
+  border-radius: 43px;
+  opacity: 0px;
+}
+
+.large {
+  width: Hug (152px) px;
+  height: Hug (51px) px;
+  padding: 16px 40px 16px 40px;
+  gap: 16px;
+  color: #fff;
+  border-radius: 43px;
+  opacity: 0px;
+}
+
+.blue {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: transparent;
+  color: #377DFF;
+  border-bottom: 1px solid currentColor;
+}
+
+.yellow {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: transparent;
+  color: #FFAB00;
+  border-bottom: 1px solid currentColor;
+}

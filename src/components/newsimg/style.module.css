@@ -1,0 +1,16 @@
+.news_images img{
+    width: 100%;
+    height: auto;
+    gap: 0px;
+    opacity: 0px;
+}
+@media (max-width: 450px) {
+    .news_images img {
+      margin-bottom: 16px;
+    }
+  }
+@media (max-width: 1024px) {
+    .news_images img {
+      margin-bottom: 16px;
+    }
+  }

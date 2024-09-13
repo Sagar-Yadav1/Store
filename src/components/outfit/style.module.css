@@ -1,0 +1,23 @@
+  .outfit {
+    margin-bottom: 24px;
+  }
+  .outfit_img {
+    position: relative;
+  }
+  .outfit_img img {
+    width: 100%;
+  }
+  .outfit_text {
+    position: absolute;
+    bottom: 0;
+    padding: 48px;
+  }
+  .outfit_text h5 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+  }

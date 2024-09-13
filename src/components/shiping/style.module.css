@@ -1,0 +1,29 @@
+.shiping {
+  padding: 13px 16px 13px 16px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #6c7275;
+  margin-bottom: 12px;
+}
+.s_input input:checked .checkmark {
+  background-color: #000;
+}
+.s_input > input{
+  background-color: #000;
+}
+.s_input label {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin-left: 10px;
+}
+.s_price p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: right;
+}

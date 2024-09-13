@@ -1,0 +1,18 @@
+.categories {
+    margin-bottom: 48px;
+  }
+.category_img img {
+    border-radius: 50%;
+    width: 100%;
+    height: 196px;
+    margin-bottom: 12px;
+    object-fit: cover;
+    object-position: top;
+  }
+.category_text p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+  }

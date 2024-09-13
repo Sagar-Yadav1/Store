@@ -1,0 +1,74 @@
+.newsletter {
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.newsletter_content {
+  padding: 100px 0;
+  width: fit-content;
+  margin: 0 auto;
+}
+.newsletter_content h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.newsletter_content p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.newsletter_content input {
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.4000000059604645px;
+  color: rgba(108, 114, 117, 1);
+}
+.newsletter_content .singup_input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid rgba(108, 114, 117, 0.5);
+  padding: 12px 0;
+}
+.newsletter_content .singup_input button {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.4000000059604645px;
+  color: rgba(108, 114, 117, 1);
+  background-color: transparent;
+  border: none;
+}
+
+@media (max-width: 425px) {
+  .newsletter_content h4 {
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.6000000238418579px;
+  }
+  .newsletter_content p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 375px) {
+}
+@media (max-width: 320px) {
+}

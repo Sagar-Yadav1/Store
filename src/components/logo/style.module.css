@@ -1,0 +1,13 @@
+.logo {
+  display: flex;
+}
+
+.logo a {
+  display: flex;
+}
+
+.logo a img {
+  width: 170px;
+  height: auto;
+  object-fit: contain;
+}

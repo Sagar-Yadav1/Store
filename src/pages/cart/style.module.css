@@ -1,0 +1,91 @@
+.cart_heading {
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: #121212;
+    margin-top: 80px;
+    padding-bottom: 24px;
+    border-bottom: 2px solid #6C7275;
+}
+
+.cart_items {
+    height: 432px;
+    overflow-y: scroll;
+}
+
+.ch_sub {
+    display: flex;
+    gap: 76px;
+    margin-left: 85px;
+}
+
+.product {
+    margin-right: 150px;
+}
+
+.quantity {
+    margin-left: 135px;
+}
+
+.price {
+    margin-right: -22px;
+}
+
+.coupon {
+    margin-top: 80px;
+    margin-bottom: 16px;
+}
+
+.coupon h6 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 7px;
+    text-align: left;
+    color: #141718;
+}
+
+.coupon span {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #6C7275;
+}
+
+.coupon_code {
+    width: 424px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 80px;
+}
+
+.coupon_code .coupon_icon {
+    position: absolute;
+    left: 210px;
+    z-index: 9;
+}
+
+.coupon_code input {
+    position: relative;
+    width: 424px;
+    height: 50px;
+    padding: 0px 16px 0px 48px;
+    gap: 8px;
+}
+
+.coupon_code button {
+    position: absolute;
+    left: 33%;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    color: #121212;
+    background-color: transparent;
+}

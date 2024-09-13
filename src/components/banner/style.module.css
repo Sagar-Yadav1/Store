@@ -1,0 +1,56 @@
+.banner_img img {
+    width: 100%;
+  }
+  .banner_content {
+    height: 100%;
+    background-color: #F3F5F7;
+  }
+  .banner_content_inner {
+    padding: 0 160px 0 72px;
+  }
+  .banner_content_inner .b_content_tag {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: rgba(55, 125, 255, 1);
+    margin-bottom: 16px;
+  }
+  .banner_content_inner .b_content_title {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.4000000059604645px;
+    color: rgba(20, 23, 24, 1);
+    margin-bottom: 16px;
+  }
+  .banner_content_inner .b_content_description {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(20, 23, 24, 1);
+    margin-bottom: 24px;
+  }
+  @media (max-width: 320px) {
+    .banner_content_inner {
+      padding: 58px 32px;
+    }
+  }
+  @media (max-width: 375px) {
+    .banner_content_inner {
+      padding: 58px 32px;
+    }
+  }
+  @media (max-width: 425px) {
+    .banner_content_inner {
+      padding: 58px 32px;
+    }
+  }
+  @media (max-width: 450px) {
+    .banner_content_inner h4{
+      font-size: 36px !important;
+    }
+  }
+  
